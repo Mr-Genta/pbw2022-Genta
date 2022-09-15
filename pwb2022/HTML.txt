@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Konoha</title>
+</head>
+
+<body>
+
+	<h1>Naruto sang Avatar</h1>
+	<p>Naruto merupakan seorang anak yang ditinggalkan oleh kedua orang tuanya saat dia masih kecil.</p>
+	<p>Dia selalu dibenci oleh orang-orang sekitar karena dia adalah pembawa kehancuran bagi desa.</p>
+	<p>Tapi semua berubah saat negara api menyerang, hanya naruto yang bisa mengendalikan empat element yang bisa menghentikannya. Tapi saat desa konohan membutuhkannya dia menghilang.</p>
+	<h2>Sebatas Gambar</h2>
+
+	<img src="pmb2022/img/すぐに虫を得る鳥.jpg" width="300" height="200" />
+
+</body>
+
+</html>
+
