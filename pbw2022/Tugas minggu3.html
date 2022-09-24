@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style type="text/css">
+            body{
+                background-image: url();
+            }
+        </style>
     <title>Pemrogram Berbasis Web</title>
 </head>
-<body>
+<body align="center">
+    <h2>video</h2>
+    <button onclick="playVid()" type="button">Play Video</button>
+    <button onclick="pouseVid()" type="button">Pouse Video</button>
+    <br>
 <h1>Video</h1>
 <video src="img/Fatui.mp4" controls preload="metadata" height="600" width="800">
-    <track label="Indonesia" kind="subtitles" srclang="ID" src="Sub.vtt">
-    <track label="Jawa" kind="subtitles" srclang="JW" src="SubFatui.vtt">
-    <track label="Jepang" kind="subtitles" srclang="JP" src="SubFatui.srt">
+    <track label="Indonesia" kind="subtitles" srclang="id" src="Sub.vtt"/>
+    <track label="Jawa" kind="subtitles" srclang="jv" src="SubFatui.vtt"/>
+    <track label="Jepang" kind="subtitles" srclang="jp" src="SubFatui.srt"/>
 </video>
 </body>
+var vid = document.getElementById("myvideo");
+
+function playVid(){
+    vid.play();
+}
+
+function pauseVid(){
+    vid.pause();
+}
+</script>
 </html>
