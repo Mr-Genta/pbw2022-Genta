@@ -2,15 +2,12 @@
 <html>
     <Head>
         <title>Pemrogram Berbasis Web</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     </Head>
     <body>
-        <h1>video</h1>
-        <div class="container text-center">
-            <video src="video.mp4" controls width="600" height="400">
-                <track default src="video_bahasa.vtt">
-            </video>
-
-        </div>
+        <video controls  width="320" height="240">  
+            <source type="video/mp4" src="video.mp4" >   
+            <track src="video_bahasa.vtt" label="English" kind="captions" srclang="en-us" default >
+            <track src="video_bahasa.vtt" label="French" kind="subtitles" srclang="fr" >
+       </video>
     </body>
 </html>
